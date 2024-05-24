@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+}
+.section1 {
+    background-image: url('/assets/images/banner-bk.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 8em 6em 12em;
+    display: grid;
+    place-items: center;
+}
