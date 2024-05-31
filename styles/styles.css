@@ -7,122 +7,194 @@ body {
 .logo{
     display: flex;
     justify-content: space-between;
-    height: 100px;
+  
 }
+.logo img{
+    width: 100px;
 
+}
+.logo p{
+    color: white;
+}
 header {
 
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
+   display: flex;
+   flex-direction: column;
+   padding: 60px 120px 60px 120px;
     color:white;
     background-color: #f8f9fa;
     background-image: url('/assets/images/banner-bk.jpg');
 }
 
-/* header h1 {
-    font-size: 2em;
-} */
+header div h1 {
+    font-size: 5em;
+
+} 
 
 header button {
     padding: 10px 20px;
     font-size: 1em;
-    background-color: #3eb38c;
-    color: #fff;
+    background-color: #00ffb3;
+    color: #333;
     border: none;
     border-radius: 100px;
     cursor: pointer;
 }
-.img4{
-    width: 200px;
+.tit{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+    color: rgb(78, 73, 73);
 }
-section .log h4{
+
+.ca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+section .ca p {
     width: 70%;
 }
-section{
-    padding: 15%;
-    display: flex;
-    height: 30%;
+
+.im {
+    width: 200px;
 }
-.ti{
-padding: 10%;
-font-size: 20px;
-display: flex;
-position: absolute;
-top: 100%;
-left: 35%;
+
+.gri {
+    color: rgb(95, 94, 94);
 }
-.lo{
+
+.pa {
+    font-size: 25px;
+    color: rgb(95, 94, 94);
+}
+
+.cont {
     display: flex;
+    gap: 20px;
     align-items: center;
-    flex-direction: column;
-    gap: 15px;
-    margin: 10px;
+  
+    padding: 0 130px;
 }
-h4{
-    color: rgb(54,54,54);
-}
-.c2{
-    font-size: 50px;
-    padding: 6%;
-}
-p{
-    padding: 6%;
-    color: rgb(54,54,54);
-}
+
+
 .grad{
     background: linear-gradient(168deg, white 60%, #00ffb3 0);
 }
-.but{
-    color: rgb(255, 249, 249) ;
+
+.learn {
+    color: white;
     width: 170px;
-    height: 40px;
-    background-color: rgba(1, 20, 29, 0.836);
+    height: 60px;
     border-radius: 50px;
+    background-color: #122242;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: none;
     font-size: 20px;
     font-weight: 700;
-
 }
-.overlay {
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.services {
+.imagen {
     display: flex;
-    justify-content: space-around;
-    padding: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
-.service {
-    text-align: center;
-    width: 30%;
+.take {
+    padding: 180px 0;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
-.icon {
-    background-size: contain;
-    height: 100px;
-    margin-bottom: 10px;
+.par {
+    font-size: 25px;
+    color: rgb(95, 94, 94);
+    width: 90%;
 }
 
-.anti-spam {
-    background-image: url('path-to-anti-spam-icon.png');
+.take aside {
+    width: 50%;
+}
+
+.gradiente {
+    background: linear-gradient(168deg, white 60%, #00ffae 0);
+}
+
+.titule {
+    font-size: 50px;
+    color: rgb(78, 73, 73);
+}
+.contenido {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
 }
 
 .pricing {
+    display: flex;
+    width: 100%;
+    padding: 90px 0;
+    justify-content: center;
+    gap: 250px;
+}
+
+.texto {
+    font-size: 20px;
+}
+
+.contenido2 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    background-color: #122242;
+    width: 30%;
+    padding: 80px 0;
+}
+
+span {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.compra {
+    color: #122242;
+    width: 170px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.free {
+    color: #122242;
+    width: 170px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #00ffae;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+
+.pricing {
+   
     display: flex;
     justify-content: space-around;
     padding: 20px;
 }
 
 .plan {
-    border: 1px solid #ddd;
+    border: none;
     border-radius: 5px;
     padding: 20px;
     width: 30%;
@@ -130,15 +202,17 @@ p{
 }
 
 .plan h3 {
+    color: #f7f7f7;
     margin-top: 0;
 }
 
 .plan .price {
     font-size: 2em;
-    color: #333;
+    color: #f7f7f7;
 }
 
 .plan ul {
+    color: #f7f7f7;
     list-style: none;
     padding: 0;
 }
@@ -150,70 +224,137 @@ p{
 .plan button {
     padding: 10px 20px;
     font-size: 1em;
-    background-color: #007bff;
-    color: #fff;
+    background-color:  #00ffb3;
+    color: #333;
     border: none;
-    border-radius: 5px;
+    border-radius: 100px;
     cursor: pointer;
 }
 
 .startup {
-    background-color: #e0f7fa;
+    background-color: #0a1c57;
 }
-
-.premium {
-    background-color: #b3e5fc;
-}
-
-.profesional {
-    background-color: #82b1ff;
-}
-
-.contact {
-    padding: 20px;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.contact-info p {
-    margin: 5px 0;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-form label {
-    margin-top: 10px;
-}
-
-form input, form textarea {
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-form button {
-    padding: 10px 20px;
-    margin-top: 10px;
-    background-color: #007bff;
-    color: #fff;
+.plan1 {
     border: none;
     border-radius: 5px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.plan1 h3 {
+    color: #363535;
+    margin-top: 0;
+}
+
+.plan1 .price1 {
+    font-size: 2em;
+    color: #424242;
+}
+
+.plan1 ul {
+    color: #1b1b1b;
+    list-style: none;
+    padding: 0;
+}
+
+.plan1 ul li {
+    padding: 5px 0;
+}
+
+.plan1 button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color:  #00ffb3;
+    color: #333;
+    border: none;
+    border-radius: 100px;
     cursor: pointer;
 }
 
+.startup1 {
+    background-color: white;
+}
+
+.b{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 130px;
+    background-color: rgb(228,228,228);
+    height: 200px;
+}
+
+.con {
+    font-size: 60px;
+}
+
+.contact {
+    padding: 150px 180px;
+    background-image: url(../assets/images/contact-bk.jpg);
+    height: 40vh;
+    font-size: 20px;
+    display: flex;
+}
+
+.contact aside {
+    width: 50%;
+    color: white;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin-top: 33px;
+    margin-bottom: 12px;
+    width: 850px;
+}
+
+.formulario label {
+    color: #00ffae;
+}
+
+.formulario input {
+    border-color: #00ffae;
+    background: transparent;
+    width: 90%;
+}
+.for1{
+display: flex;
+}
+
+.formulario textarea {
+    border-color: #00ffae;
+    background: transparent;
+}
+.boton{
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color:  #00ffb3;
+    color: #333;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.input{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
 footer {
-    margin-top: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0a1c57;
+    padding-top: 20px;
     text-align: center;
 }
 
 .social-links a {
     margin: 0 10px;
     text-decoration: none;
-    color: #007bff;
+    
 }
 
 
