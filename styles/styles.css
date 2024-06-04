@@ -116,7 +116,6 @@ section .ca p {
 .par {
     font-size: 18px;
     color: rgb(95, 94, 94);
-    width: 90%;
 }
 
 .take aside {
@@ -287,21 +286,7 @@ footer {
     width: 90%;
 }
 
-@media (max-width: 1280px) {
-    .pricing {
-        flex-direction: column;
-        gap: 30px;
-    }
 
-    .contenido2, .contenido {
-        width: 90%;
-    }
-
-    .b {
-        flex-direction: column;
-        gap: 10px;
-    }
-}
 
 @media (max-width: 921px) {
     header {
@@ -348,12 +333,32 @@ footer {
         padding: 0 15px;
     }
 
-    .take, .pricing {
-        padding: 20px 15px;
+    .take {
+        padding: 0;
+        font-size: 30px;
+        width: 100%;
+    }
+    
+    .take aside{
+        width: 100%;
     }
 
-    .contenido2, .contenido {
-        width: 100%;
+    .contenido {
+        padding: 0;
+        width: 70%;
+    }
+    
+    .pricing {
+        width: 100% ;
+        padding: 10x;
+        gap: 20px;;
+    }
+    
+ 
+    
+    .contenido2 {
+        width: 80%;
+        padding: 10px;
     }
 
     header div h1 {
@@ -380,8 +385,6 @@ footer {
     }
     
     .pricing {
-
-        width: 90% ;
         padding: 10x;
         gap: 20px;;
     }
